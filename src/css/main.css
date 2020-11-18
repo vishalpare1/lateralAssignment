@@ -1,0 +1,297 @@
+* {
+  box-sizing: border-box;
+}
+.header {
+  padding-top: 20px;
+  margin-bottom: 25px;
+}
+
+.logo-circle {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background: #000;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 12px;
+  padding: 15px 7px;
+}
+
+.v-divider {
+  display: inline-block;
+  height: 50px;
+  width: 2px;
+  background: #000;
+  position: absolute;
+  margin: 0 20px;
+}
+
+.page-heading {
+  display: inline-block;
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.top-image {
+  background-image: url("../images/top.png");
+  width: 100%;
+  height: 482px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.inner-text {
+  padding: 100px 100px 0 100px;
+}
+
+h3.img-title {
+  font-family: "Dancing Script", cursive;
+  font-size: 56px;
+  font-weight: 800;
+}
+
+p.img-text {
+  max-width: 480px;
+  margin-top: 25px;
+  font-size: 16px;
+}
+
+.top-image p.img-text {
+  color: #b6993c;
+}
+
+.top-image .img-title {
+  color: #a45b4a;
+}
+
+.middle-image {
+  background-image: url("../images/middle.png");
+  width: 100%;
+  height: 482px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.middle-image .inner-text {
+  float: right;
+  padding: 140px 30px 0px 0px;
+}
+
+.middle-image .img-title {
+  color: #73bd42;
+}
+
+.middle-image p.img-text {
+  color: #d8dbcb;
+}
+
+.bottom-image {
+  background-image: url("../images/bottom.png");
+  width: 100%;
+  height: 482px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bottom-image .inner-text {
+  padding: 130px 100px 0 100px;
+}
+
+.bottom-image .img-title {
+  color: #f9f269;
+}
+
+.bottom-image p.img-text {
+  color: #a5e388;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.chart-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.txt-sm {
+  font-size: 14px;
+}
+
+.txt-md {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.txt-lg {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.p-l-10 {
+  padding-left: 10px;
+}
+
+hr.h-divider-broad {
+  border-width: 3px;
+}
+
+.nutrition-wrapper {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 1px 4px 2px 3px #ccc;
+  background: #fff;
+}
+
+.nutrition-chart {
+  margin-top: -40px;
+  padding: 0 20px;
+}
+
+.stage-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+.fruit-details-page {
+  margin-top: 40px;
+  padding-left: 25px;
+}
+
+.fruit-details-wrapper {
+  padding-left: 25px;
+  border-left: 2px solid black;
+}
+.farmer-details {
+  margin: 20px 0;
+}
+
+.farmer-photo {
+  width: 70px;
+  height: 70px;
+  float: left;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.farmer-name {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.former-details-wrapper {
+  padding: 20px 0 40px 15px;
+  background: #eff8f7;
+  margin-bottom: 15px;
+}
+
+.map-wrapper {
+  position: relative;
+  height: 100vh;
+  width: calc(100% - 30px);
+}
+
+.collection-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.location {
+  margin: 20px 0;
+  font-size: 21px;
+  font-weight: 600;
+}
+.col-md-4 {
+  width: 33%;
+  float: left;
+}
+
+.full-img {
+  width: 100%;
+}
+
+.img-grid {
+  margin: 35px 0 !important;
+}
+
+.secret-title {
+  margin: 30px 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.img-side-text {
+  display: inline-block;
+  position: relative;
+  top: -20px;
+  left: 19px;
+  font-weight: 600;
+}
+
+.delivery-text {
+  font-size: 19px;
+  font-weight: 600;
+  color: #6eb59d;
+  margin: 15px 0 30px;
+}
+
+.dot-white {
+  width: 10px;
+  height: 15px;
+  position: relative;
+  background: #fff;
+  border-radius: 50%;
+  left: -31px;
+  bottom: -45px;
+}
+
+.dot-color {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background: #88bebb;
+  border-radius: 50%;
+  left: -31px;
+  bottom: -30px;
+}
+
+.dot-container {
+  position: relative;
+}
+
+.dot-container.harvest .dot-white {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+  left: -31px;
+  bottom: -7px;
+}
+
+.dot-container.harvest .dot-color {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background: #88bebb;
+  border-radius: 50%;
+  left: -31px;
+  bottom: -17px;
+}
+
+.dot-container.collection {
+  position: relative;
+  top: 15px;
+}
